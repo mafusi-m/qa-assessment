@@ -1,0 +1,39 @@
+RISK ASSESSMENT FOR LORD OF THE RINGS API				
+				
+RISKS		
+				
+1.Broken Object Level Authorization	
+2.Broken User Authentication	
+3.Excessive Data Exposure
+4.Lack of Resource & Rate Limiting
+5.Mass Assignment 
+
+LEVEL
+1.Low	
+2.High
+3.Medium
+4.Low
+5.HighI
+
+PROBABILITY
+1.Low
+2.High
+3.High
+4.High
+5.High
+
+IMPACT
+1.If authorization is broken there will be a wide attack area
+2.Attacks can exploit authentication tokens to gain access
+3.More data one unnecessarily expose, will lead to unnecessary risk	
+4.If API has no limitations on number of resources that can be called, it is open to wide detrimental attack
+5.Hackers can easily intercept requests and reverse-engineer a private API
+
+MITIGATION
+1.Use an API gateway and implement object-level authorization checks. Require access tokens to permit access
+2.Secure user authentication, and only ensure trusted users are authenticated
+3.Limit data exposure to only trusted parties who need it. By using OAuth Scopes and claim
+4.Put rate limits on APIs using API gateway or management solution, put restrictions on responses also
+5.Act like a hacker to find vulnerabilities
+				
+		.
