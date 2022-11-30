@@ -1,0 +1,18 @@
+LORD OF THE RINGS													
+													
+													
+API to be tested ( with VALID and INVALID data)													
+													
+													
+Test Cases							
+1. Verify if HTTP status code is correct								
+2. Verify response payload												
+3. Verify response headers											
+4. Verify correct application state 												
+5. Verify basic performance sanity																		
+6. Insert Invalid Authentication										
+7. Insert Invalid URL											
+8. Insert invalid HTTP method											
+9. Empty request
+10. Empty values in input parameters
+													
