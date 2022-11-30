@@ -1,0 +1,43 @@
+Lord of The Rings Test Plan
+
+											 
+Document Author(s): 								 
+	Mafusi Mashaile					
+
+
+1. Introduction 
+This test plan serves as the plan for testing an API of Lord of The Rings as well as the reporting of test results.
+
+2. Testing Deliverables Specify the planned testing deliverables which may include:
+•	Test Case Specification
+•	Risk assessment document
+•	Test plan
+
+3. Environmental Requirements Specify the environmental needs for conducting tests:
+•	Hardware (computer)
+•	Testing tool (Postman)
+•	Internet
+
+
+4. Schedule Specify testing schedule.
+   2-3days
+
+5. Scope Inclusions (Features to be tested)
+•	All endpoints of Books
+•	All endpoints of Movies
+•	All endpoints of Characters
+•	All endpoints of Quotes
+•	All endpoints of Chapters
+
+Exclusions (Features not to be tested)
+•	Anything that is NOT mentioned in Inclusions
+
+6. Risks and mitigations 
+  Broken Object Level Authorization-Use an API gateway and implement object-level authorization checks. Require access tokens to permit access
+  Broken User Authentication-Secure user authentication, and only ensure trusted users are authenticated
+  Excessive Data Exposure-Limit data exposure to only trusted parties who need it. By using OAuth Scopes and claim
+  Lack of Resource & Rate Limiting-Put rate limits on APIs using API gateway or management solution, put restrictions on responses also
+  Mass Assignment-Act like a hacker to find vulnerabilities
+
+7. Approvals 
+Mafusi Mashaile
